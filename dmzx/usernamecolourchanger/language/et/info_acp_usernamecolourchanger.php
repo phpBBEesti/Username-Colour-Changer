@@ -1,5 +1,6 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @package phpBB Extension - Username Colour Changer
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
@@ -30,7 +31,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACL_U_USERNAMECOLOURCHANGER_USE'	=> 'Can use Username Colour Change',
-	'USER_COLOUR_TITLE'					=> 'Username Colour Change',
-	'USER_COLOUR_EXPLAIN'				=> 'Can edit colour of username',
+	'ACL_U_USERNAMECOLOURCHANGER_USE'	=> 'Saab kasutajanime värvi muuta',
+	'USER_COLOUR_TITLE'					=> 'Kasutajanime värvi muutmine',
+	'USER_COLOUR_EXPLAIN'				=> 'Saab muuta värvi kasutajanimel',
 ));
